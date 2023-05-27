@@ -1,0 +1,65 @@
+/* TABLET: */
+
+@media screen and (min-width: 769px) {
+	.container {
+		width: 90%;
+	}
+
+	h1 {
+		font: size 60px;
+	}
+
+	h2 {
+		font: size 24px;
+	}
+
+	h3 {
+		font: size 22px;
+
+		margin-bottom: 20px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	nav .container {
+		justify-content: space-between;
+	}
+
+	nav .container ul {
+		display: flex;
+		gap: 30px;
+	}
+
+	.expert {
+		display: flex;
+		flex-direction: row;
+		gap: 100px;
+	}
+
+	.shadow .container {
+		text-align: center;
+	}
+
+	.expert {
+		flex-direction: row;
+		align-items: center;
+		gap: 100px;
+	}
+
+	.reversed {
+		flex-direction: row-reverse;
+	}
+
+	.expert img {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		border: 2px solid goldenrod;
+
+		object-position: top;
+
+		margin: 20px;
+	}
+}

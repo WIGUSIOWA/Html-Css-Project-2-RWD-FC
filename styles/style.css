@@ -1,0 +1,137 @@
+/* polecane BREAKPOINTY z lekcji: 
+ DLA MOBILKI: 320 - 768px 
+ DLA TABLETA: 769 - 1024px
+ DLA SMALL COMPUTER: 1025 - 1440px
+ DLA COMPUTER: 1441px plus
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: roboto, arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #565151;
+
+	margin-bottom: 20px;
+}
+
+p {
+	color: #565151;
+}
+
+section {
+	margin: 50px 0;
+}
+
+section h2 {
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: goldenrod;
+	padding: 20px 0;
+	width: 100%;
+}
+
+nav .container {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.brand {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+nav .container ul {
+	display: none;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+}
+
+header img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.shadow .container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	text-align: left;
+	gap: 30px;
+}
+
+.experts .experts-list {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.expert {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.expert img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid goldenrod;
+
+	object-position: top;
+	object-fit: cover;
+	margin: 20px;
+}
+
+.experts h2 {
+	color: #565151;
+	text-align: center;
+}
