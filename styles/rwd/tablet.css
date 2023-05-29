@@ -5,16 +5,16 @@
 		width: 90%;
 	}
 
-	h1 {
-		font: size 60px;
+	.header-main-heading {
+		font-size: 60px;
 	}
 
-	h2 {
-		font: size 24px;
+	.main-second-heading {
+		font-size: 24px;
 	}
 
-	h3 {
-		font: size 22px;
+	.main-third-heading {
+		font-size: 22px;
 
 		margin-bottom: 20px;
 	}
@@ -23,13 +23,18 @@
 		width: 90%;
 	}
 
-	nav .container {
+	.navigation .container {
 		justify-content: space-between;
 	}
 
-	nav .container ul {
+	.navigation .container .list-items {
 		display: flex;
-		gap: 30px;
+		gap: 50px;
+		color: #fff;
+	}
+	.go-button {
+		color: #fff;
+		text-decoration: none;
 	}
 
 	.expert {
@@ -39,7 +44,13 @@
 	}
 
 	.shadow .container {
-		text-align: center;
+		text-align: left;
+	}
+
+	.experts .main-second-heading {
+		color: #565151;
+		text-align: left;
+		margin-bottom: 30px;
 	}
 
 	.expert {
@@ -52,7 +63,7 @@
 		flex-direction: row-reverse;
 	}
 
-	.expert img {
+	.expert .woman-image {
 		width: 150px;
 		height: 150px;
 		border-radius: 50%;

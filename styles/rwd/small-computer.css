@@ -3,34 +3,30 @@
 	.container {
 		width: 1000px;
 	}
+
+	.header-main-heading {
+		font-size: 28px;
+	}
+
+	.main-second-heading {
+		font-size: 26px;
+	}
+
+	.main-third-heading {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	.experts .main-second-heading {
+		margin-bottom: 50px;
+	}
+
+	.container {
+		width: 1000px;
+	}
+
+	.expert .image {
+		width: 300px;
+		height: 300px;
+	}
 }
-
-h1 {
-	font: size 28px;
-}
-
-h2 {
-	font: size 26px;
-}
-
-h3 {
-	font: size 24px;
-
-	margin-bottom: 20px;
-}
-
-section h2 {
-	margin-bottom: 50px;
-}
-
-.container {
-	width: 1000px;
-}
-
-.expert img{
-    width: 300px;
-    height: 300px;
-    
-}
-
-
