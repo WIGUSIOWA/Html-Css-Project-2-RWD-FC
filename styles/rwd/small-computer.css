@@ -91,7 +91,6 @@
 	.learning-riding {
 		display: flex;
 		flex-direction: column;
-		max-resolution: 20px 0;
 	}
 
 	.forest-riding {
