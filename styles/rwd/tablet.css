@@ -1,17 +1,10 @@
-/* TABLET: */
-
 @media screen and (min-width: 769px) {
 	.container {
 		width: 90%;
 	}
 
-	.header-main-heading {
-		font-size: 36px;
-	}
-
 	.main-second-heading {
 		font-size: 36px;
-		text-align: left;
 	}
 
 	.main-third-heading {
@@ -25,15 +18,6 @@
 	.navigation .container .list-items {
 		display: flex;
 		gap: 50px;
-		color: #fff;
-	}
-
-	.brand {
-		display: flex;
-		justify-content: left;
-		align-items: center;
-		color: #fff;
-		font-size: 18px;
 	}
 
 	.navigation .container .list-items {
@@ -54,20 +38,6 @@
 		cursor: not-allowed;
 	}
 
-	.cta-button {
-		font-size: 18px;
-	}
-
-	.expert {
-		display: flex;
-		flex-direction: row;
-		gap: 100px;
-	}
-
-	.shadow .container {
-		text-align: left;
-	}
-
 	.experts .main-second-heading {
 		color: #565151;
 		text-align: left;
@@ -77,7 +47,7 @@
 	.expert {
 		flex-direction: row;
 		align-items: center;
-		gap: 100px;
+		gap: 50px;
 	}
 
 	.reversed {
@@ -88,33 +58,6 @@
 		width: 150px;
 		height: 150px;
 		border-radius: 50%;
-		border: 2px solid goldenrod;
-		object-position: top;
 		margin: 20px;
 	}
-
-	.footer-part {
-		width: 100%;
-		height: 70px;
-		background-color: #222;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-	}
-	
-	.footer-paragraph {
-		font-size: 18px;
-		color: #a0a5aa;
-		text-align: center;
-	}
-	
-	.container .footer-list {
-		display: flex;
-		gap: 18px;
-		width: 18px;
-		height: 18px;
-		color: white;
-	}
-
 }
