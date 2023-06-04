@@ -6,21 +6,16 @@
 	}
 
 	.header-main-heading {
-		font-size: 60px;
+		font-size: 36px;
 	}
 
 	.main-second-heading {
-		font-size: 24px;
+		font-size: 36px;
+		text-align: left;
 	}
 
 	.main-third-heading {
 		font-size: 22px;
-
-		margin-bottom: 20px;
-	}
-
-	.container {
-		width: 90%;
 	}
 
 	.navigation .container {
@@ -32,9 +27,35 @@
 		gap: 50px;
 		color: #fff;
 	}
-	.go-button {
+
+	.brand {
+		display: flex;
+		justify-content: left;
+		align-items: center;
 		color: #fff;
+		font-size: 18px;
+	}
+
+	.navigation .container .list-items {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		font-size: 18px;
+	}
+
+	.go-button {
+		cursor: pointer;
 		text-decoration: none;
+		color: #fff;
+	}
+
+	.disabled-button {
+		cursor: not-allowed;
+	}
+
+	.cta-button {
+		font-size: 18px;
 	}
 
 	.expert {
@@ -68,9 +89,32 @@
 		height: 150px;
 		border-radius: 50%;
 		border: 2px solid goldenrod;
-
 		object-position: top;
-
 		margin: 20px;
 	}
+
+	.footer-part {
+		width: 100%;
+		height: 70px;
+		background-color: #222;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	.footer-paragraph {
+		font-size: 18px;
+		color: #a0a5aa;
+		text-align: center;
+	}
+	
+	.container .footer-list {
+		display: flex;
+		gap: 18px;
+		width: 18px;
+		height: 18px;
+		color: white;
+	}
+
 }

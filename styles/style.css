@@ -11,19 +11,19 @@
 
 html {
 	font-family: roboto, arial, sans-serif;
-	font-size: 16px;
+	/* font-size: 16px; */
 	font-weight: 400;
 	color: white;
 	scroll-behavior: smooth;
 }
 
 .header-main-heading {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 }
 
 .main-second-heading {
-	font-size: 36px;
+	font-size: 26px;
 	font-weight: 700;
 	color: #fff;
 	margin-bottom: 60px;
@@ -33,7 +33,7 @@ html {
 	font-size: 18px;
 	font-weight: 700;
 	color: #565151;
-	margin-top: 80px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
@@ -63,6 +63,7 @@ html {
 
 p {
 	color: #565151;
+	font-size: 18px;
 	text-align: justify;
 }
 
@@ -80,14 +81,19 @@ p {
 }
 
 .navigation {
-	background-color: goldenrod;
-	padding: 20px 0;
 	width: 100%;
+	height: 70px;
+	background-color: goldenrod;
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 .navigation .container {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 
@@ -154,6 +160,7 @@ p {
 	border-radius: 50%;
 	border: 2px solid goldenrod;
 
+	display: flex;
 	object-position: top;
 	object-fit: cover;
 	margin: 20px;
@@ -170,17 +177,23 @@ p {
 	background-color: #405d78;
 	padding: 65px;
 }
+
+.main-second-heading-offer {
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 60px;
+}
+
 .offer .container .offer-boxes {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
 }
 
 .offer-boxes div {
 	width: 250px;
 	height: 250px;
 	background-color: rgb(255, 198, 55);
-	margin: 35px auto;
+	margin: 15px auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -207,12 +220,16 @@ p {
 	border-radius: 50%;
 	background-color: magenta;
 	position: absolute;
-	top: -50px;
+	top: -30px;
 	left: -15px;
 }
 
-.learning-riding {
+.learning-riding p {
 	flex-direction: column;
+}
+
+div .learning-riding {
+	gap: 0;
 }
 
 .footer-part {
@@ -222,27 +239,19 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-}
-
-.footer-list {
-	display: flex;
-	/* gap: 40px; */
-}
-
-.footer-part .container {
-	display: flex;
-	flex-direction: column;
+	text-align: center;
 }
 
 .footer-paragraph {
 	font-size: 18px;
 	color: #a0a5aa;
+	text-align: center;
 }
 
-.footer-list i {
-	/* display: flex; */
+.container .footer-list {
+	display: flex;
 	gap: 18px;
 	width: 18px;
 	height: 18px;
+	color: white;
 }
