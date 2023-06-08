@@ -15,12 +15,7 @@
 		justify-content: space-between;
 	}
 
-	.navigation .container .list-items {
-		display: flex;
-		gap: 50px;
-	}
-
-	.navigation .container .list-items {
+	.nav-items-container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -36,6 +31,12 @@
 
 	.disabled-button {
 		cursor: not-allowed;
+	}
+
+	.company-offer-button:hover {
+		background-color: #fff;
+		color: black;
+		cursor: pointer;
 	}
 
 	.experts .main-second-heading {
@@ -59,5 +60,10 @@
 		height: 150px;
 		border-radius: 50%;
 		margin: 20px;
+	}
+
+	.offer-boxes div:hover {
+		transform: scale(1.05);
+		cursor: pointer;
 	}
 }

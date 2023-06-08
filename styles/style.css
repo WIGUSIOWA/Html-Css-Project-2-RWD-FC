@@ -1,12 +1,3 @@
-/* polecane BREAKPOINTY z lekcji: 
- DLA MOBILKI: 320 - 768px 
- DLA TABLETA: 769 - 1024px
- DLA SMALL COMPUTER: 1025 - 1440px
- DLA COMPUTER: 1441px plus
- */
-
-
-
 * {
 	box-sizing: border-box;
 }
@@ -44,10 +35,9 @@ html {
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	color: #fff;
 }
 
-.navigation .container .list-items {
+.nav-items-container {
 	display: none;
 }
 
@@ -59,7 +49,6 @@ html {
 .main-second-heading {
 	font-size: 26px;
 	font-weight: 700;
-	color: #fff;
 	margin-bottom: 60px;
 }
 
@@ -103,11 +92,10 @@ html {
 }
 
 .header-promiss {
-	color: #fff;
 	font-weight: 700;
 }
 
-.cta-button {
+.company-offer-button {
 	width: fit-content;
 	background-color: transparent;
 	border: 3px solid white;
@@ -120,24 +108,8 @@ html {
 	transition: 1s;
 }
 
-.cta-button:hover {
-	background-color: #fff;
-	color: black;
-	cursor: pointer;
-}
-
-p {
-	color: #565151;
-	font-size: 18px;
-	text-align: justify;
-}
-
 .experts {
 	margin: 50px 0;
-}
-
-.experts .main-second-heading {
-	margin-bottom: 30px;
 }
 
 .experts .experts-list {
@@ -163,6 +135,12 @@ p {
 	margin: 30px auto;
 }
 
+.team-info {
+	color: #565151;
+	font-size: 18px;
+	text-align: justify;
+}
+
 .experts .main-second-heading {
 	color: #565151;
 	text-align: center;
@@ -172,6 +150,7 @@ p {
 .offer {
 	background-color: #405d78;
 	padding: 65px 0;
+	margin-top: 50px;
 }
 
 .main-second-heading-offer {
@@ -183,6 +162,9 @@ p {
 .offer .container .offer-boxes {
 	display: flex;
 	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 .offer-boxes div {
@@ -198,12 +180,7 @@ p {
 	transition: 1s;
 }
 
-.offer-boxes div:hover {
-	transform: scale(1.05);
-	cursor: pointer;
-}
-
-.offer-boxes div p {
+.offer-boxes {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -216,7 +193,7 @@ p {
 	position: relative;
 }
 
-.offer .container .offer-boxes .mentoring .circle {
+.mentoring .special-box-circle {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -226,11 +203,7 @@ p {
 	left: -15px;
 }
 
-.learning-riding p {
-	flex-direction: column;
-}
-
-div .learning-riding {
+.offer-boxes .learning-riding {
 	gap: 0;
 }
 
@@ -257,15 +230,8 @@ div .learning-riding {
 .footer-list {
 	display: flex;
 	justify-content: center;
-	gap: 18px;
+	gap: 30px;
 	width: 100%;
 	color: white;
 	margin: 15px 0;
 }
-
-.offer .container .offer-boxes {
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 20px;
-}
-
